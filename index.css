@@ -225,6 +225,7 @@ ul {
     overflow: hidden;
     background: #ECEFF3;
     border-radius: 42px;
+    height: 60px;
 }
 
 .second-navbar {
@@ -239,14 +240,16 @@ ul {
     align-items: center;
     padding-left: 0;
     margin: 0;
-    padding: 0;
     white-space: nowrap;
     overflow-x: auto;
     scroll-behavior: smooth;
+    width: 95%;
 }
 
 .second-navbar li {
-    padding: 7px 20px;
+    flex-grow: 1;
+    text-align: center;
+    padding: 8px 0px;
     color: #466D86;
     border-radius: 20px;
     margin: 10px;
@@ -298,8 +301,21 @@ ul {
 
 .privacy-card .card-footer {
     border-top: 1px solid #D3D3D3;
+    height: 45px;
+    font-size: 1em;
 }
 
+.accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.accordion-button {
+    border: 1px solid #4875D4;
+    font-size: 14px;
+    color: #4875D4;
+    padding: 12px 15px;
+}
 
 /* footer styles */
 .footer-man-image {
@@ -549,5 +565,10 @@ footer {
         border-radius: 20px;
         margin: 5px;
         font-size: 12px;
+    }
+
+    .second-navbar-container {
+        width: 100%;
+        border-radius: 0px;
     }
 }
