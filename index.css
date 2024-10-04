@@ -721,14 +721,6 @@ footer p {
   }
 }
 
-@media screen and (min-width: 560px) {
-  .upper-footer .mobile-view-list,
-  .playStore-btn.smaller-screen,
-  .smaller-screen-refer-button {
-    display: none !important;
-  }
-}
-
 /* For mobile devices (max-width: 767px) */
 @media only screen and (max-width: 767px) {
   .card-title {
